@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+/*	background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRM6DY2Xrtsm0vjqJLtbGsq_ZV6Zq7YmsXvgppKnSA8j3nHFth_EA);
+*/
+/*	background-color: #36454f;
+*/	font-size: 30pt;
+}
+/*div {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	margin-left: 0;
+	top: 50px;
+	position: absolute;
+	z-index: 1;
+}
+.background-fill {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}*/
+.container {
+	width: 100%;
+	height: 100%;
+	background: url(http://www.doubledeclic.com/ISO2012/Albums/M/Winners/slides/FIAP%20HONOR%20-%20Ferry%20in%20the%20beautiful%20lake%20-%20CHIAN%20TSUN-HSIUNG%20-%20taiwan.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+}
+
+/*.style {
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	overflow: hidden;
+	z-index: -9999999;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}*/
+
+.top_banner {
+width: 50%;
+height: 30%;
+margin: auto;
+margin-top: 5%;
+padding-top:5%;
+background-color: rgba(3, 3, 3, 0.4);
+font-family: 'Open Sans', sans-serif;
+text-align: right;
+font-size: 100%;
+color: white;
+line-height: 105%;
+position: fixed;
+top: 0;
+clear: both;
+display: block;
+}
+.top_banner h1 {
+	padding-right: 10%;
+}
+.side_banner {
+	width: 25%;
+	height: 90%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: rgba(10, 10, 10, 0.2);
+	margin-left: 8%;
+	margin-right: 5%;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: white;
+	float: right;
+
+}
+.top_banner h1 {
+	padding-right: 10%;
+}
+.side_banner h1 {
+	font-size: 60%;
+	padding-left: 3%;
+}
+.side_banner p {
+	font-size: 40%;
+	padding-left: 3%;
+}
+
+
+/*a {
+	font-family: 'FontAwesome';
+}*/
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	html{
+		background: red;
+		color: red;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+/* ipad */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+@font-face{
+    font-family:FontAwesome;
+    src:url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.eot?#iefix) format('eot'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.woff) format('woff'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.ttf) format('truetype'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.svg#FontAwesome) format('svg');
+    font-weight:400;font-style:normal;}
+
+
+
+ul { padding-left:20px; list-style:none; }
+li { margin-bottom:10px; }
+
+
+
+p1 a:before {
+     font-family: 'FontAwesome';
+    content:"\f082";
+    padding:0 5px 0 15px;
+	font-size: 75%;
+	text-decoration: none;
+	color: white;
+} 
+
+p2:before {
+     font-family: 'FontAwesome';
+    content:"\f003";
+    padding:0 5px 0 15px;
+    font-size: 75%;
+   
+} 
+p3 a:before {
+     font-family: 'FontAwesome';
+    content:"\f081";
+    padding:0 5px 0 15px;
+    font-size: 75%;
+    text-decoration: none;
+    color: white;
+} 
+a:link {color:#222;}
+a:visited {color:#222;}
+a:active {color:#222;}
+a {
+	border:none;
+}
+
+
+
+I need help with mediaquery and removing these dang purple lines below my fontawesome links.
+
